@@ -1,7 +1,16 @@
 # cottage-webapp
 Web Application written in Java and Python
 
-## Test Localhost link
+## Setup
+
+##### Clone Repository
+$ git clone 
+
+##### Compile and Run
+$ cd cottage-webapp
+$ gradle run
+
+##### View
 [localhost:4567](http://localhost:4567)  
 
 
