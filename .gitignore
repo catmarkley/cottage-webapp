@@ -13,3 +13,7 @@ hs_err_pid*
 
 # Gradle Builds
 build/
+.gradle/
+
+# OS X
+.DS_Store
