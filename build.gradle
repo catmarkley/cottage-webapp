@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'Server'
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
+
+dependencies {
+	compile "com.sparkjava:spark-core:2.5.4"
+	compile "org.slf4j:slf4j-simple:1.7.21"
+	compile "org.jtwig:jtwig-spring-boot-starter:5.63"
+	testCompile "junit:junit:4.12"
+}
