@@ -4,11 +4,11 @@ Web Application written in Java and Python
 ## Setup
 
 ##### Clone Repository
-$ git clone 
+    $ git clone https://github.com/catmarkley/cottage-webapp.git
 
 ##### Compile and Run
-$ cd cottage-webapp
-$ gradle run
+    $ cd cottage-webapp
+    $ gradle run
 
 ##### View
 [localhost:4567](http://localhost:4567)  
