@@ -18,7 +18,7 @@ public class Server {
 			return template.render(model);
 		});
 	get("/13.58.65.149:4567/cat", (rq,rs) -> {
-			return "<html><head><title>Cat</title></head><body><b>Hi Cat</b></body></html>"
+			return "<html><head><title>Cat</title></head><body><b>Hi Cat</b></body></html>";
 		});    
 	}
 }
